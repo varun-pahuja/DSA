@@ -5,7 +5,7 @@ void print1(int n){
 int i, j;
   for(i=1; i<=n; i++){
     for(j=n; j>=i; j--){  // the sensei used j = 0; j < n-i+1; j++ but I used j = n; j >= i; j-- and it worked too
-       cout << i;
+       cout << n-i+1;
     }
     cout << endl;
   }
