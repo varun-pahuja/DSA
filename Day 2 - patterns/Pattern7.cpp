@@ -5,7 +5,7 @@ void print1(int n){
 int i, j;
   for(i=1; i<=n; i++){
     //space
-    for(j=0; j<=i; j++){  
+    for(j=0; j<=n; j++){  
         cout << " ";
     }
     //stars
@@ -13,7 +13,7 @@ int i, j;
        cout << "*";
     }
     //space
-    for(j=0; j<=n-1; j++){
+    for(j=0; j<=n; j++){
        cout << " ";
     }
     cout << endl;
