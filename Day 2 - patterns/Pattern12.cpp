@@ -10,10 +10,10 @@ int space = 2 *(n-1);
          cout << j;
     }
     // spaces
-    for(j=0; j<space; j++){
+    for(j=1; j<=space; j++){
         cout << " ";
     }
-    space -= 2;
+    
     // numbers
     for(j=i; j>=1; j--){
         cout << j;
