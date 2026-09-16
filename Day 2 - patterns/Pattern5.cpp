@@ -5,7 +5,7 @@ void print1(int n){
 int i, j;
   for(i=1; i<=n; i++){
     for(j=n; j>=i; j--){
-       cout << i;
+       cout << "*";
     }
     cout << endl;
   }
