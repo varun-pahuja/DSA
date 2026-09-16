@@ -4,8 +4,17 @@ using namespace std;
 void print1(int n){
 int i, j;
   for(i=1; i<=n; i++){
-    for(j=1; j<=n+i-2; j++){  // the sensei used j = 0; j < n-i+1; j++ but I used j = n; j >= i; j-- and it worked too
-       cout << "* ";
+    //space
+    for(j=0; j<n-i-1; j++){  
+        cout << " ";
+    }
+    //stars
+    for(j=0; j<2*i-1; j++){  
+       cout << "*";
+    }
+    //space
+    for(j=0; j<n-i-1; j++){
+       cout << " ";
     }
     cout << endl;
   }
