@@ -21,7 +21,27 @@ int insp = 0;
     cout << endl;
   }
 
+  int insp = 8;
+  for(i=0; i<=n; i++){
+    // stars
+      for(j = 1; j <= i; j++){
+        cout << "* ";
+      }
+    // spaces 
+     for(j = 0; j< insp; j++){
+        cout << "  ";
+      }
+    // stars
+    for(j = 1; j <= i; j++){
+        cout << "* ";
+      }
+      insp -=2;
+    cout << endl;
+  }
+
 }
+
+
 
 int main() {
 //   int t;
