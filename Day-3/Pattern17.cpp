@@ -3,11 +3,26 @@ using namespace std;
 
 void print1(int n){
 int i, j;
-int num = 1;
-  for(i=0; i<=n; i++){
-    char ch = 'A'+i;
-    for(j=0; j<= ch + (n-i-1); j++){
-      cout << ch << " ";
+  for(i=1; i<=n; i++){
+    //space
+    for(j=0; j<n-i-1; j++){  
+        cout << " ";
+    }
+    //characters
+    char ch = 'A';
+    for(j=0; j<= 2*i+1; j++){
+      cout << ch;
+      if(j < i){
+        ch++;
+      }
+      else{
+        ch--;
+      }
+    }
+    
+    //space
+    for(j=0; j<n-i-1; j++){
+       cout << " ";
     }
     cout << endl;
   }
