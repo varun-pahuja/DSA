@@ -10,9 +10,10 @@ int i, j;
     }
     //characters
     char ch = 'A';
-    for(j=0; j<= 2*i+1; j++){
+    int breakpoint = (2*i+1)/2;
+    for(j=1; j<= 2*i+1; j++){
       cout << ch;
-      if(j < i){
+      if(j<breakpoint){
         ch++;
       }
       else{
