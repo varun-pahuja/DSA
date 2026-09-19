@@ -3,7 +3,7 @@ using namespace std;
 
 void print1(int n){
     int i, j;
-    for(i=1; i<=n; i++){
+    for(i=n; i>=1; i--){        // ✅ reversed loop
         for(j=0; j<n-i; j++)
             cout << " ";
 
