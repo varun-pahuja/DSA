@@ -6,7 +6,7 @@ int i, j;
 int num = 1;
   for(i=0; i<=n; i++){
     for( char ch = 'A'; ch <= 'A'; ch++){
-      cout << ch << " ";
+      cout << i << " ";
     }
     cout << endl;
   }
