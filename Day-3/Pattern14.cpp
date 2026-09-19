@@ -5,9 +5,8 @@ void print1(int n){
 int i, j;
 int num = 1;
   for(i=1; i<=n; i++){
-    for(j=1; j<=i; j++){
-       cout << num << " ";
-       num = num + 1;
+    for( char ch = 'A'; ch < 'A' + i; ch++){
+      cout << ch << " ";
     }
     cout << endl;
   }
