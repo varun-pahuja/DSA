@@ -21,21 +21,21 @@ int insp = 0;
     cout << endl;
   }
 
-  int insp = 8;
+  int insp2 = 8;
   for(i=0; i<=n; i++){
     // stars
       for(j = 1; j <= i; j++){
         cout << "* ";
       }
     // spaces 
-     for(j = 0; j< insp; j++){
+     for(j = 0; j< insp2; j++){
         cout << "  ";
       }
     // stars
     for(j = 1; j <= i; j++){
         cout << "* ";
       }
-      insp -=2;
+      insp2 -=2;
     cout << endl;
   }
 
