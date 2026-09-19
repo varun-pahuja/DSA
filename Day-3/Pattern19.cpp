@@ -20,7 +20,7 @@ int insp = 0;
       insp +=2;
     cout << endl;
   }
-  int insp2 = 8;
+  int insp2 = 2*n - 2;
   for(i=0; i<=n; i++){
     // stars
       for(j = 1; j <= i; j++){
